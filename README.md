@@ -36,4 +36,7 @@ An additional column containing the subject id for each observation (read in fro
 
 The data frame is then averaged for each subject and activity for each variable by using the melt and dcast functions in the reshape2 library.
 
-The tidy data frame (X_tidy) is then stored by write.table() using row.name=FALSE.
+The tidy data frame (X_tidy) is then stored by write.table() using row.name=FALSE in tidy_dataset.txt
+
+
+
